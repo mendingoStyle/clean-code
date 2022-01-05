@@ -18,11 +18,10 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true
+    "isolatedModules": false,
+    "noEmit": true,
   },
   "include": [
-    "tsconfig.json",
     "src"
-  ],
+  ]
 }
